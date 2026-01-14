@@ -1,0 +1,32 @@
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE
+*.idea/
+*.vscode/
+
+# Build artifacts
+DerivedData/
+build/
+*.dSYM/
+
+# Certificates (never commit these!)
+*.p12
+*.pem
+*.key
+*.cer
+*.crt
